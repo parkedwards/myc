@@ -1,0 +1,37 @@
+{
+  "name": "myc",
+  "version": "1.0.0",
+  "description": "A bot that helps you get going to places you need to be",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --harmony",
+    "devstart": "NODE_ENV=dev nodemon index.js --harmony",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkedwards/myc.git"
+  },
+  "author": "Edward Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parkedwards/myc/issues"
+  },
+  "homepage": "https://github.com/parkedwards/myc#readme",
+  "dependencies": {
+    "@slack/client": "^3.10.0",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
