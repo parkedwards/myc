@@ -52,6 +52,11 @@ rtm.on(REACTION_ADDED, reaction => {
 
 rtm.start();
 
+app.post('/test', (req, res, next) => {
+  console.log('ayyyyyyyy');
+  return res.status(200).json('heyo!');
+})
+
 app.all('*', (req, res) => res.status(404).end('Page Not Found'));
 
 app.listen(PORT, () => {
