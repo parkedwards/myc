@@ -8,6 +8,16 @@
     "devstart": "NODE_ENV=dev nodemon index.js --harmony",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "8.1.4"
+  },
+  "now": {
+    "type": "npm",
+    "alias": [
+      "myc-bot"
+    ],
+    "dotenv": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/parkedwards/myc.git"
